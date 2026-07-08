@@ -1,0 +1,29 @@
+package practicejava;
+
+public class CountAccuranceOfOneChar {
+	
+	public static void main(String[]argc) {
+		
+		
+				String str = "google";
+				int count = 0;
+
+				char c = 'o';
+				
+				for (int i = 0; i < str.length(); i++) {
+					if (c == str.charAt(i)) {
+						count++;
+					}
+				}
+				
+				System.out.println("count of " + c + " is: " + count);
+
+			}
+
+		
+
+
+		
+		
+	}
+

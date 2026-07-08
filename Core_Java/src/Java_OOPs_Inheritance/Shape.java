@@ -1,0 +1,25 @@
+package Java_OOPs_Inheritance;
+
+public class Shape {
+	
+	protected String color ;
+	protected int borderWidth;
+	
+	public String getColor() {
+		return color;
+	}
+	
+	public void setColor (String color) {
+		this.color=color;
+	}
+	
+	public int getBorderWidth() {
+		return borderWidth;
+		
+	}
+	
+	public void setBorderwWidth (int borderWidth) {
+		this.borderWidth = borderWidth;
+	}
+
+}
