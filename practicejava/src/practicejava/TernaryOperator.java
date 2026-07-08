@@ -16,7 +16,7 @@ public class TernaryOperator {
 		
 		int n=5;
 		int result=0;
-		result = n%2==0 ? 10 : 20;
+		result = n%2==0 ? 10 : 20;   // if the condition is true than it will rum 10 and false it will run 20 
 		System.out.println(result);
 	
 		
