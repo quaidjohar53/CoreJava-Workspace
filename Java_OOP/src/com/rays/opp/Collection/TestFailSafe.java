@@ -10,7 +10,7 @@ public class TestFailSafe {
 		Vector v = new Vector();
 		
 		
-		v.add("quaid");
+		v.add("quaid johar");
 		v.add('a');
 		v.add(7.7);
 		v.add(true);
